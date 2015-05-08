@@ -1,6 +1,7 @@
 # OpenNMS
 
-A Puppet module for managing OpenNMS
+A Puppet module for managing OpenNMS. This module is still work in progress (see 
+TODO, below).
 
 # Module usage
 
