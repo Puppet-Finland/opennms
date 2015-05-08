@@ -1,0 +1,12 @@
+{
+  "name": "puppetfinland-opennms",
+  "version": "0.1.0",
+  "author": "Puppet-Finland team",
+  "license": "BSD license",
+  "summary": "Setup OpenNMS network monitoring system",
+  "source": "https://github.com/Puppet-Finland/opennms.git",
+  "project_page": "https://github.com/Puppet-Finland/opennms",
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">=4.5.1" }
+  ]
+}

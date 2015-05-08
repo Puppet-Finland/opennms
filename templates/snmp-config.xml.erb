@@ -1,0 +1,9 @@
+<snmp-config xmlns="http://xmlns.opennms.org/xsd/config/snmp" security-name="<% @snmpv3_security_name %>" auth-passphrase="<% @snmpv3_auth_passphrase %>" auth-protocol="<% @snmpv3_auth_protocol %>" version="v3" timeout="1800" retry="1">
+  <definition version="v1" read-community="opennms">
+    <range begin="192.168.0.1" end="192.168.0.2"/>
+    <range begin="172.16.2.1" end="172.16.2.2"/>
+  </definition>
+  <definition security-level="2" port="161">
+    <specific>10.10.10.10</specific>
+  </definition>
+</snmp-config>
